@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(22, 22, 46);
+
+}
+
+#container {
+    margin: 10px;
+    width: 100%;
+}
+
+#nav{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+#menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#tittle{
+    width: 200px;
+    text-align: center;
+    color: rgb(199, 63, 13);
+}
+
+#menu ul li{
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.link-menu{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
