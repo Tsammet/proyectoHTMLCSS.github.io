@@ -39,4 +39,10 @@
 .link-menu{
     color: white;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.link-menu:hover{
+    border:1px solid red;
+    width: 50%;
 }
