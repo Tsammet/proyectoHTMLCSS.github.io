@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     background-color: rgb(22, 22, 46);
+    font-family: 'Poppins', sans-serif;
+
 
 }
 
@@ -26,11 +28,11 @@
 #tittle{
     width: 200px;
     text-align: center;
-    color: rgb(199, 63, 13);
+    color: #ff702a;
 }
 
 #menu ul li{
-    width: 150px;
+    width: 120px;
     color: white;
     font-size: 20px;
     
@@ -43,17 +45,62 @@
 }
 
 .link-menu:hover{
-    border:1px solid red;
-    width: 50%;
+    border:1px solid #2f9e44;
+    padding: 7px ;
+    
 }
 
 #home{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     height: 400px;
     width: 100%;
 }
 
 #home-container{
-    width: 500px;
+    width: 100%;
+    padding-top: 80px;
+}
+
+#home-container h1{
+    color: #ff702a;
+    font-size: 80px;
+    display: flex;
+    padding-bottom: 15px;
+    padding-left: 125px;
+
+
+}
+
+#home-container p{
+    color: #2f9e44;
+    font-size: 25px;
+    display: flex;
+    padding-left: 125px;
+}
+
+#home-container button{
+    background-color: #ff702a;
+    color: white;
+    height: 45px;
+    width: 15%;
+    margin-left: 125px;
+    margin-top: 25px;   
+    font-size: 15px;
+    border-radius: 50px;
+
+}
+
+#image-home{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image-home img{
+    padding-top: 80px;
+    height: 300px;
+    width: 80%;
+    border-radius: 25px;
 }
