@@ -46,3 +46,14 @@
     border:1px solid red;
     width: 50%;
 }
+
+#home{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+}
+
+#home-container{
+    width: 500px;
+}
