@@ -222,8 +222,27 @@ body{
 
 .tittle-prod h3{
     color: black;
+    width: 100%;
+    text-align: center;
 }
 
 .tittle-prod p{
     color: black;
+    width: 100%;
+    text-align: center;
+}
+
+#services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#countainer-services{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 55px;
+    width: 100%;
 }
