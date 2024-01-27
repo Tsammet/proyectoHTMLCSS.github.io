@@ -57,7 +57,7 @@ body{
 #home{
     display: flex;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
 }
 
@@ -112,7 +112,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
 }
 
 #about-container{
@@ -163,7 +163,7 @@ body{
 
 #menu{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -237,12 +237,81 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
+}
+
+#service-tittle h2{
+    text-align: center;
+    color: #ff702a;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+#service-tittle h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
 }
 
 #countainer-services{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 55px;
+    margin-top: 105px;
     width: 100%;
+    flex-wrap: wrap;
+}
+
+.service .service-image{
+    width: 100%;
+}
+
+.service-image img{
+    height: 300px;
+    width: 100%;
+}
+
+.service .service-name{
+    color: #ff702a;
+    text-align: center;
+    font-size: 15px;
+}
+
+.service .service-description{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+#advertisement{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#advertisement-box{
+    background-color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    border: 1px solid white;
+    border-radius: 10px ;
+}
+
+#advertisement-box h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#advertisement-box button{
+    background-color: #ff702a;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
