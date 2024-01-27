@@ -366,3 +366,29 @@ body{
     font-size: 20px; 
 }
 
+
+@media(max-width : 360px){
+
+    #home{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    #home-container{
+        width: 100%;
+    }
+
+    #home-container h1{
+        width: 100%;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    #home-container p{
+        font-size: 20px;
+        color: white;
+    }
+
+}
