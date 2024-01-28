@@ -410,10 +410,25 @@ body{
     }
 
     #home-container button{
-        width: 30%;
+        width: 100%;
         background-color: #ff702a;
         color: white;
         text-align: center;
+    }
+
+    #image-home{
+        width: 100%;
+        background-color: #2f9e44;
+    }
+
+    #image-home img{
+        width: 100%;
+        padding-top: 80px;
+        height: 300px;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }
