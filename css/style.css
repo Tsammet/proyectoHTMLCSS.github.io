@@ -367,12 +367,12 @@ body{
 }
 
 
-@media(max-width : 360px){
+@media(max-width : 420px){
 
     *{
         margin: 0;
         padding: 0;
-        width: 100%;
+        width: 80%%;
     }
 
     #container{
