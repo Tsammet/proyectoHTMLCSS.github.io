@@ -367,24 +367,23 @@ body{
 }
 
 
-@media(max-width : 420px){
+@media(max-width : 720px){
 
-    *{
-        margin: 0;
-        padding: 0;
-        width: 80%;
-    }
-
+  
     #container{
         margin: 0;
-        width: 100%;
+        width: 66vw;
+    }
+
+    #menu-nav ul{
+        display: none;
     }
 
     #home{
         width: 100%;
         display: flex;
         flex-direction: column;
-        height: 90vh;
+        height: 50vh;
     }
 
     #home-container{
@@ -399,26 +398,27 @@ body{
     #home-container h1{
         width: 100%;
         color: #ff702a;
-        font-size: 30px;
+        font-size: 45px;
         text-align: center;
     }
 
     #home-container p{
         width: 100%;
         color: white;
-        font-size: 20px;
+        font-size: 28px;
         text-align: center;
     }
 
     #home-container button{
-        width: 100%;
+        width: 50%;
         background-color: #ff702a;
         color: white;
+        font-size: 18px;
         text-align: center;
     }
 
     #image-home{
-        width: 100%;
+        width: 90%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -429,6 +429,14 @@ body{
         width: 100%;
         height: 200px;
         border: 15px;
+    }
+
+    #about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
 }
