@@ -64,19 +64,25 @@ body{
 }
 
 #home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
 #home-container h1{
+    text-align: center;
     color: #ff702a;
-    font-size: 80px;
+    font-size: 100px;
     padding-bottom: 15px;
     padding-left: 125px;
-
+    width: 100%;
 
 }
 
 #home-container p{
+    text-align: center;
     color: #2f9e44;
     font-size: 25px;
     padding-left: 125px;
@@ -129,17 +135,19 @@ body{
 
 #about-container h4{
     color: #ff702a;
-    font-size: 20px;   
+    text-align: center;
+    font-size: 25px;   
 }
 
 #about-container h1{
-    font-size: 40px;
+    font-size: 45px;
     color: white;
-    text-align: left;
+    text-align: center;
 }
 
 #about-container p{
-    font-size: 20px;
+    text-align: center;
+    font-size: 25px;
     color: white;
 }
 
@@ -477,15 +485,15 @@ body{
     }
 
     #image-about{
-        margin-top: 20px;
+        margin-top: 0px;
         order: 2;
-        height: 250px;
+        height:auto ;
         width: 100%;
     }
 
     #image-about img{
         width: 70%;
-        height: 200px;
+        height: 250px;
     }
 
     #menu{
@@ -520,6 +528,8 @@ body{
         color: white;
     }
 
+
+    
     .image-prod img{
         width: 100%;
         height: 200px;
