@@ -165,7 +165,7 @@ body{
 
 #menu{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -200,6 +200,7 @@ body{
 
 
 .box{
+    margin: 5px;
     background-color: rgb(247, 246, 245);
 }
 
@@ -239,7 +240,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 }
 
 #service-tittle h2{
@@ -380,10 +381,12 @@ body{
     }
 
     #home{
-        width: 90vw;
+        width: 80vw;
         display: flex;
         flex-direction: column;
-        height: 70vh;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
     }
 
     #home-container{
@@ -433,8 +436,8 @@ body{
     }
 
     #about{
-        height: 80vh;
-        width: 100%;
+        height: 130vh;
+        width: 80vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -481,7 +484,68 @@ body{
     }
 
     #image-about img{
-        width: 80%;
+        width: 70%;
+        height: 200px;
     }
 
+    #menu{
+        width: 80vw;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 250px;
+        padding-left: 50px;
+
+    }
+
+    #menu-box .box{
+        padding: 10px;
+    }
+
+    .box{    
+        background-color: rgb(22, 22, 46);
+    }
+
+    .tittle-prod h2{
+        color: white;
+    }
+
+    .tittle-prod h3{
+        color: white;
+    }
+
+    .tittle-prod p{
+        color: white;
+    }
+
+    #services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 270vh;
+    }
+
+    #service-tittle{
+        padding-left: 55px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #advertisement{
+        height: 50vh;
+    }
+
+    #footer{
+        height: 50vh;
+    }
+
+    #scrollTop {
+        display: none;
+    }
 }
