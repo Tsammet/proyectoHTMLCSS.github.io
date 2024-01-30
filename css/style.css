@@ -444,6 +444,7 @@ body{
     }
 
     #about{
+        padding-top: 50px;
         height: 130vh;
         width: 80vw;
         display: flex;
@@ -534,9 +535,10 @@ body{
     .image-prod img{
         width: 300px;
         height: 200px;
-
     }
+
     #services{
+        padding-top: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
