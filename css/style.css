@@ -389,7 +389,7 @@ body{
     }
 
     #home{
-        width: 75vw;
+        width: 80vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -438,7 +438,7 @@ body{
     }
 
     #image-home img{
-        width: 70%;
+        width: 350px;
         height: 250px;
         padding-left: 75px;
     }
@@ -492,8 +492,9 @@ body{
     }
 
     #image-about img{
-        width: 70%;
+        width: 350px;
         height: 250px;
+        padding-right: 40px;
     }
 
     #menu{
@@ -531,7 +532,7 @@ body{
 
     
     .image-prod img{
-        width: 100%;
+        width: 350px;
         height: 200px;
 
     }
