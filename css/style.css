@@ -348,6 +348,23 @@ body{
     padding-bottom: 4px;
 }
 
+.links-footer-contact ul li{
+    color: white;
+    padding-bottom: 4px;
+}
+
+.links-footer-contact ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.links-footer-contact h1{
+    color: white;
+    border-bottom: 2px solid #ff702a;
+
+}
+
+
 #scrollTop {
     position: fixed;
     bottom: 20px;
@@ -443,6 +460,7 @@ body{
     }
 
     #about{
+        padding-top: 100px;
         height: auto;
         width: 80vw;
         display: flex;
@@ -589,10 +607,11 @@ body{
         flex-direction: column;
     }
 
-    .links-footer{
-        color: red;
-
+    .links-footer-contact{
+        padding-left: 60px;
+        padding-top: 50px;
     }
+
 
     #scrollTop {
         display: none;
