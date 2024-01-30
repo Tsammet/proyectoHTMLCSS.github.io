@@ -19,7 +19,6 @@ body{
 }
 
 #nav{
-    margin-top: 25px;
     display: flex;
     justify-content: space-between;
     height: 50px;
@@ -41,7 +40,6 @@ body{
     width: 120px;
     color: white;
     font-size: 20px;
-    
 }
 
 .link-menu{
@@ -52,14 +50,14 @@ body{
 
 .link-menu:hover{
     border:1px solid #2f9e44;
-    padding: 7px ;
+    padding: 7px;
     
 }
 
 #home{
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
 }
 
@@ -395,7 +393,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 120vh;
+        height: 80vh;
     }
 
     #home-container{
@@ -439,8 +437,8 @@ body{
     }
 
     #image-home img{
-        width: 300px;
-        height: 250px;
+        width: 200px;
+        height: 150px;
         padding-left: 75px;
     }
 
@@ -486,16 +484,16 @@ body{
     }
 
     #image-about{
-        margin-top: 120px;
+        margin-top: 70px;
         order: 2;
-        height:auto ;
+        height: auto;
         width: 100%;
     }
 
     #image-about img{
-        width: 300px;
-        height: 250px;
-        padding-right: 40px;
+        width: 200px;
+        height: 150px;
+        padding-right: 27px;
     }
 
     #menu{
@@ -533,16 +531,17 @@ body{
 
     
     .image-prod img{
-        width: 300px;
-        height: 200px;
+        width: 200px;
+        height: 150px;
     }
 
     #services{
+        padding-top: 150px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 300vh;
+        height: auto;
     }
 
     #service-tittle{
@@ -561,7 +560,13 @@ body{
         padding-left: 75px;
     }
 
+    .service-image img{
 
+        height: 150px;
+        width: 200px;
+        
+    }
+    
     #advertisement{
         height: 100vh;
         display: flex;
@@ -584,7 +589,7 @@ body{
         flex-direction: column;
     }
 
-    .links-footer h1{
+    .links-footer{
         color: red;
 
     }
