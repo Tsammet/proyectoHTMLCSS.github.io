@@ -584,6 +584,11 @@ body{
         flex-direction: column;
     }
 
+    .links-footer h1{
+        color: red;
+
+    }
+
     #scrollTop {
         display: none;
     }
