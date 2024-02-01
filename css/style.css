@@ -47,7 +47,6 @@ body{
     width: 120px;
     color: white;
     font-size: 20px;
-    /* #safdsa */
 }
 
 .link-menu{
@@ -57,8 +56,9 @@ body{
 }
 
 .link-menu:hover{
-    border:1px solid #ffffff;
+    border:1px solid;
     padding: 7px;
+    background: linear-gradient(to bottom right, blue, 60%, rgb(248, 18, 2));
 }
 
 .link-menu:active{
@@ -112,8 +112,15 @@ body{
     margin-top: 25px;   
     font-size: 20px;
     border-radius: 20px;
-    transition: 0.1s linear;
+    transition: 0.3s linear;
+    background: linear-gradient(to bottom right, blue, 60%, rgb(248, 18, 2));
+    border: none;
+}
 
+#home-container button:hover{
+    box-shadow: 0 0 30px rgb(4, 96, 99);
+    background: linear-gradient(to bottom right, rgb(255, 68, 0), blue 60%);
+    cursor: pointer;
 }
 
 #image-home{
@@ -173,8 +180,17 @@ body{
     border-radius: 20px;
     width: 15%;
     font-size: 20px;
-
+    transition: 0.6s linear;
+    background: linear-gradient(to bottom right, blue, 60%, rgb(248, 18, 2));
+    border: none;
 }
+
+#about-container button:hover{
+    box-shadow: 0 0 30px rgb(4, 96, 99);
+    background: linear-gradient(to bottom right, rgb(255, 68, 0), blue 60%);
+    cursor: pointer;
+}
+
 
 #image-about{
     display: flex;
@@ -337,6 +353,12 @@ body{
 
 }
 
+#advertisement button:hover{
+    box-shadow: 0 0 30px rgb(4, 96, 99);
+    background: linear-gradient(to bottom right, rgb(255, 68, 0), blue 60%);
+    cursor: pointer;
+}
+
 #advertisement-box h1{
     text-align: center;
     padding-bottom: 20px;
@@ -349,6 +371,9 @@ body{
     width: 120px;
     border: 1px solid white;
     border-radius: 15px;
+    transition: 0.6s linear;
+    background: linear-gradient(to bottom right, blue, 60%, rgb(248, 18, 2));
+    border: none;
 }
 
 #footer{
