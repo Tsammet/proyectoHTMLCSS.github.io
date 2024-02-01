@@ -482,19 +482,19 @@ body{
         background-color: rgb(29, 29, 29);
         text-align: center;
         z-index: 1;
-        border: 1px solid black;
+        border: 2px solid black;
+        
     }
 
     .checkbtn {
         color: white;
-        border: none;
         display: block;
         cursor: pointer;
+        margin-right: 50px;
     }
 
     #check:checked ~ #menu-nav ul {
         display: flex;
-        align-items: center;
     }
 
     #menu-nav li {
@@ -508,11 +508,6 @@ body{
         display: block;
     }
 
-    #nav{
-        position: static;
-
-    }
-
     #home{
         width: 80vw;
         display: flex;
@@ -520,6 +515,7 @@ body{
         justify-content: center;
         align-items: center;
         height: 80vh;
+        margin-top: 100px;
     }
 
     #home-container{
