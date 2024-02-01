@@ -21,8 +21,13 @@ body{
 #nav{
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    height: 100px;
     align-items: center;
+    padding: 10px;
+    background: var(--clr-main);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #menu-nav ul{
@@ -73,6 +78,12 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding-top: 110px;
+}
+
+#home-container img{
+    height: 200px;
+    width: 40%;
 }
 
 #home-container h1{
@@ -101,6 +112,7 @@ body{
     margin-top: 25px;   
     font-size: 20px;
     border-radius: 20px;
+    transition: 0.1s linear;
 
 }
 
@@ -157,9 +169,10 @@ body{
 #about-container button{
     color: white;
     background-color: blue;
-    height: 40px;
+    height: 55px;
     border-radius: 20px;
     width: 15%;
+    font-size: 20px;
 
 }
 
@@ -316,6 +329,12 @@ body{
     width: 70%;
     border: 1px solid white;
     border-radius: 10px ;
+    background-image: url("/css/images/South-Korea-Flag.jpg");
+    background-size: 1500px 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+
 }
 
 #advertisement-box h1{
@@ -371,6 +390,11 @@ body{
 
 }
 
+.link-footer{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
 
 #scrollTop {
     position: fixed;
@@ -384,7 +408,7 @@ body{
     border-radius: 60%;
 }
 
-#scrollTop:hover {
+#scrollTop:active {
     background-color: red;
 }
 
@@ -413,6 +437,11 @@ body{
         display: none;
     }
 
+    #nav{
+        position: static;
+
+    }
+
     #home{
         width: 80vw;
         display: flex;
@@ -430,6 +459,12 @@ body{
         align-items: center;
         justify-content: center;
         padding-right: 40px;
+    }
+
+    #home-container img{
+        height: 200px;
+        width: 40%;
+        padding-left: 80px;
     }
 
     #home-container h1{
@@ -477,6 +512,7 @@ body{
         align-items: center;
         justify-content: center;
         padding-left: 55px;
+        margin-top: 100px;
     }
 
     #about-container{
@@ -602,6 +638,10 @@ body{
     #advertisement-box{
         height: 200px;
         width: 100%;
+        background-image: url("/css/images/South-Korea-Flag.jpg");
+        background-size: cover;
+        background-position: center;
+        color: white;
     }
 
     #footer{
@@ -616,6 +656,12 @@ body{
     .links-footer-contact{
         padding-left: 60px;
         padding-top: 50px;
+    }
+
+    .link-footer{
+        list-style: none;
+        text-decoration: none;
+        color: white;
     }
 
 
