@@ -9,8 +9,16 @@ html {
 }
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(26, 26, 26);
 
+}
+
+#check{
+    display: none;
+}
+
+.checkbtn{
+    display: none;
 }
 
 #container {
@@ -58,7 +66,6 @@ body{
 .link-menu:hover{
     border:1px solid;
     padding: 7px;
-    background: linear-gradient(to bottom right, blue, 60%, rgb(248, 18, 2));
 }
 
 .link-menu:active{
@@ -345,7 +352,7 @@ body{
     width: 70%;
     border: 1px solid white;
     border-radius: 10px ;
-    background-image: url("/css/images/South-Korea-Flag.jpg");
+    background-image: url("/css/images/south-korea-flag-gif.gif");
     background-size: 1500px 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -458,8 +465,47 @@ body{
         height: auto;
     }
 
+    #menu-nav{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+
     #menu-nav ul{
         display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 100%;
+        background-color: rgb(29, 29, 29);
+        text-align: center;
+        z-index: 1;
+        border: 1px solid black;
+    }
+
+    .checkbtn {
+        color: white;
+        border: none;
+        display: block;
+        cursor: pointer;
+    }
+
+    #check:checked ~ #menu-nav ul {
+        display: flex;
+        align-items: center;
+    }
+
+    #menu-nav li {
+        margin: 0;
+        width: 100%;
+        height: 80px;
+    }
+
+    #menu-nav li a {
+        padding: 15px;
+        display: block;
     }
 
     #nav{
@@ -663,7 +709,7 @@ body{
     #advertisement-box{
         height: 200px;
         width: 100%;
-        background-image: url("/css/images/South-Korea-Flag.jpg");
+        background-image: url("/css/images/south-korea-flag-gif.gif");
         background-size: cover;
         background-position: center;
         color: white;

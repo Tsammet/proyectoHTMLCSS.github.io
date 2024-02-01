@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Comidas Rápidas</title>
 </head>
 <body>
@@ -17,7 +18,12 @@
                 <h1 style="color: white;">Cor </h1> <h1 style="color: red; font-size: 30px;">ean</h1>
                 <h1 style="color: blue;">Fo</h1><h1 style="color: white;">od</h1>
             </div>
-            
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+                
             <div id="menu-nav">
                 <ul>
                     <li><a class="link-menu" href="#home">Home</a></li>
@@ -37,7 +43,7 @@
                 <h1>Han's Restaurant</h1>
                 <p>La mejor comida coreana<br>De Bucaramanga</p>
                 <img src="css/images/anime-hungry.gif" alt="giff ">
-                <button>Menú Hoy</button>
+                <button onclick="alert('Nuestro plato fuerte de hoy es el Kimbap');" >Menú Hoy</button>
             </div>
 
             <div id="image-home">
@@ -57,7 +63,7 @@
                 <h4>¿Quienes Somos?</h4>
                 <h1>Restaurante Coreando <br>Con lo mejor de la comida coreana</h1>
                 <p>Somos un restaurante coreano localizado en bucaramanga <br> con el mejor sabor del mundo</p>
-                <button>Leer más</button>
+                <button onclick="alert('Holi');">Leer más</button>
 
             </div>
             
@@ -217,7 +223,7 @@
 
             <div class="links-footer">
 
-                <h1>information</h1>
+                <h1>Information</h1>
 
                 <ul>
                     <li>About Us</li>
