@@ -73,6 +73,7 @@ body{
 }
 
 #home{
+    margin-top: 65px;
     display: flex;
     align-items: center;
     height: 80vh;
@@ -352,11 +353,11 @@ body{
     width: 70%;
     border: 1px solid white;
     border-radius: 10px ;
-    background-image: url("/css/images/south-korea-flag-gif.gif");
-    background-size: 1500px 400px;
+    background-image: url("/css/images/South-Korea-Flag.jpg");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
+    color: black;
 
 }
 
