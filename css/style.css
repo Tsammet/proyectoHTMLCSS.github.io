@@ -1,7 +1,13 @@
+@keyframes neon-glow {
+    to {
+      text-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff; /* Ajusta según sea necesario */
+    }
+  }
+
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 *::-webkit-scrollbar {
@@ -64,6 +70,11 @@ body{
     text-align: center;
     align-items: center;
     padding-left: 15px;
+    text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px red; 
+    letter-spacing: 5px;
+    animation: neon-glow 1.5s ease-in-out infinite alternate; 
+
+
 }
 
 
@@ -685,6 +696,7 @@ body{
         align-items: center;
         justify-content: center;
         height: auto;
+        margin-top: 70px;
     }
 
     #service-tittle{
@@ -693,13 +705,15 @@ body{
 
     #service-tittle h1{
         font-size: 20px;
+        padding-bottom: 15px;
     }
 
     .service{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-left: 75px;
+        padding-left: 90px;
+        padding-bottom: 25px;
     }
 
     .service-image img{
