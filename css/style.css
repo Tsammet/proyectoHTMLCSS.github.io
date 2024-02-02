@@ -430,9 +430,8 @@ body{
 .links-footer h1{
     color: white;
     border-bottom: 2px solid red;
-    
+    /* x    */
 }
-
 
 .links-footer ul{
     list-style-type: none;
